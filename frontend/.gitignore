@@ -1,0 +1,24 @@
+# Frontend gitignore
+
+# Environment variables - contains Firebase API keys, NEVER commit
+.env
+.env.local
+.env.production
+.env.*.local
+
+# Node modules
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Vite
+*.local

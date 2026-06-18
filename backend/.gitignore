@@ -1,0 +1,17 @@
+# Backend gitignore
+
+# Environment variables - contains secrets, NEVER commit
+.env
+.env.local
+.env.production
+
+# Node modules
+node_modules/
+
+# Logs
+logs/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
